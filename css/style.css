@@ -14,3 +14,7 @@ body{
 #image {
     max-width: 800px;
 }
+
+#tribute-info {
+    text-align: center;
+}
