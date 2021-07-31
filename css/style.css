@@ -1,74 +1,9 @@
-.profile-link{
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDv9JIQfsl4flF4KOxvWNd0gFtprchwG6Uug&usqp=CAU");
-    height: 200px;
-    width: 100%;
-    align-items: center;
-}
-body{
-    position: relative;
+#img-div {
     text-align: center;
+    
+    margin: 0 auto;
 }
-@media screen {
-    #profile-link{
-        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDv9JIQfsl4flF4KOxvWNd0gFtprchwG6Uug&usqp=CAU");
-        height: 200px;
-        width: 100%;
-        align-items: center;
-    }
-} 
 
-#welcome-section{
-    height: 100vh;
-    top: 80px;
-    background-color: brown;
-    text-align: center;
-    display: flex;
-}
-#welcome-section>h1{
-    align-items: center;
-    margin-top: 250px;
-  color:black;
-  margin-bottom: 5px;
-  text-align: center;
-  position: absolute;
-left: 33rem
-}
-#navbar{
-    top: 0;
-    left: 0;
-    position: fixed;
-    background-color: yellow;
-    width: 100%;
-    z-index: 10;
-}
-.nav-list{
-    margin-left: auto;
-    display: flex;
-    align-items: center;
-}
-.nav-list>li{
-    margin-right: 15px;
-}
-.nav-list>a{
-    color: aliceblue;
-    text-decoration: none;
-}
-#projects{
-    background-color: blueviolet;
-    padding: 80px 30px;
-}
-#projects>h2{
-    text-align: center;
-    margin-bottom: 50px;
-    color: aqua;
-    text-decoration: underline;
-}
-.projectMain{
-    display: grid;
-    width: 100%;
-    padding: 0;
-} 
-.projectlist{
-    max-width: 100%;
-    width: 100%;
+#image {
+    max-width: 800px;
 }
